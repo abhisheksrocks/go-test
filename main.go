@@ -162,12 +162,13 @@ func main() {
 
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "image/svg+xml; charset=utf-8")
+		w.Header().Set("Content-Type", "image/svg+xml; charset=utf-8")
 		http.ServeFile(w, r, "test3.svg")
 	})
 
 	mux.HandleFunc("/mdn_logo_only_color.png", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "image/png; charset=utf-8")
-		http.ServeFile(w, r, "https://go-test-s68v.onrender.com/mdn_logo_only_color.png")
+		http.ServeFile(w, r, "./mdn_logo_only_color.png")
 	})
 
 	// go func() {
