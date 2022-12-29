@@ -229,5 +229,5 @@
 <!--(Till Here) This svg references the inner padding of 18px throughout-->
   </svg>
 <!--(Till here) This svg references the main content-->
-  <image href="https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/SVG/Element/image/mdn_logo_only_color.png" height="200" width="200" />
+  <image href="./mdn_logo_only_color.png" height="200" width="200" />
 </svg>
