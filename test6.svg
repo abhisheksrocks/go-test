@@ -33,7 +33,7 @@
        <!-- fill: white; -->
         fill: #717A84;
 
-       font-weight: 500;
+       font-weight: 400;
        <!-- color: white; -->
        line-height: 1.4;
      }
