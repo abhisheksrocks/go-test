@@ -64,7 +64,7 @@
       h395
       v-5.5
       h-395
-      " fill="white" stroke="none"/>
+      " fill="white" stroke="white"/>
     <path d="
       M409,0
       v5.5
@@ -86,14 +86,14 @@
       h14.5
       v-12
       h-8.5
-      " fill="black" stroke="black" stroke-width="2"/>
+      " fill="black" stroke="black" stroke-width="1"/>
     <path d="
       M409,148
       v-5.5
       h-395
       v5.5
       h395
-      " fill="black" stroke="black" stroke-width="2"/>
+      " fill="black" stroke="black" stroke-width="1"/>
     <path d="
       M14,148
       v-5.5
@@ -134,49 +134,49 @@
   <path d="
     M8,11.5
     q0,-6 6,-6 
-    " class="border"/>
+    " class="border" fill="none"/>
 <!--(Till here) Top Left Rounded Border-->
 <!--Top Center Border-->
   <path d="
     M14,5.5
     h395
-    " class="border"/>
+    " class="border" fill="none"/>
 <!--(Till here) Top Center Border-->
 <!--Top Right Rounded Border-->
   <path d="
     M409,5.5
     q6,0 6,6 
-    " class="border"/>
+    " class="border" fill="none"/>
 <!--(Till here) Top Right Rounded Border-->
 <!--Right Center Border-->
   <path d="
     M415,11.5
     v125
-    " class="border"/>
+    " class="border" fill="none"/>
 <!--(Till here) Right Center Border-->
 <!--Bottom Right Rounded Border-->
   <path d="
     M415,136.5
     q0,6 -6,6 
-    " class="border"/>
+    " class="border" fill="none"/>
 <!--(Till here) Bottom Right Rounded Border-->
 <!--Bottom Center Border-->
   <path d="
     M409,142.5
     h-395
-    " class="border"/>
+    " class="border" fill="none"/>
 <!--(Till here) Bottom Center Border-->
 <!--Bottom Left Rounded Border-->
   <path d="
     M14,142.5
     q-6,0 -6,-6 
-    " class="border"/>
+    " class="border" fill="none"/>
 <!--(Till here) Bottom Left Rounded Border-->
 <!--Left Center Border-->
   <path d="
     M8,136.5
     v-125
-    " class="border"/>
+    " class="border" fill="none"/>
 <!--(Till here) Left Center Border-->
 <!--(Till here) The following are the segmented paths-->
   
