@@ -163,7 +163,7 @@ func main() {
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "image/svg+xml; charset=utf-8")
 		w.Header().Set("Content-Type", "image/svg+xml; charset=utf-8")
-		http.ServeFile(w, r, "test3.svg")
+		http.ServeFile(w, r, "test6.svg")
 	})
 
 	mux.HandleFunc("/mdn_logo_only_color.png", func(w http.ResponseWriter, r *http.Request) {
@@ -179,6 +179,5 @@ func main() {
 	if err := http.ListenAndServe(":8080", mux); err != nil {
 		log.Fatal(err)
 	}
-	println("Started")
 
 }
