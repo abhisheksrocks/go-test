@@ -7,6 +7,12 @@
 
      .border{
       stroke: #80868D;
+      
+      <!-- Black Theme --> 
+      stroke: #30363d; 
+
+      <!-- White Theme --> 
+      <!-- stroke: #d0d7de;  -->
       stroke-width: 1;
      }
 
@@ -14,10 +20,22 @@
         font-size: 14px;
         font-weight: 600;
         fill: #3087EC;
+
+        <!-- Black Theme -->
+        fill: #58a6ff;
+
+        <!-- White Theme -->
+        <!-- fill: #0969da; -->
       }
 
       .text-color{
         fill: #717A84;
+
+        <!-- Black Theme -->
+        fill: #8B949E;
+        
+        <!-- White Theme -->
+        <!-- fill: #57606a; -->
       }
 
      .repository-tag{
@@ -25,13 +43,24 @@
        <!-- fill: white; -->
         fill: #717A84;
 
+        <!-- Black Theme -->
+        fill: #8B949E;
+        
+        <!-- White Theme -->
+        <!-- fill: #57606a; -->
        font-weight: 500;
      }
 
      .repository-description{
        font-size: 12px;
-       <!-- fill: white; -->
         fill: #717A84;
+        
+        <!-- Black Theme -->
+        fill: #8B949E;
+        
+        <!-- White Theme -->
+        <!-- fill: #57606a; -->
+
 
        font-weight: 400;
        <!-- color: white; -->
@@ -43,6 +72,11 @@
        <!-- fill: white; -->
         fill: #717A84;
 
+        <!-- Black Theme -->
+        fill: #8B949E;
+        
+        <!-- White Theme -->
+        <!-- fill: #57606a; -->
        font-weight: 400;
      }
     </style>
@@ -111,7 +145,8 @@
       " fill="white" stroke="none"/>
   </mask>
 <!--  (Till here) this is the outside maske -->
-
+  <!-- <rect width="100%" height="100%" fill="#0d1117"/> -->
+  <!-- <rect width="100%" height="100%" fill="#ffffff"/> -->
 <!--This is the whole rectangle with just the bg color-->
   <svg x="8" y="5.5">
     <path d="
